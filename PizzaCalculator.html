@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pizzacalculator</title>
+</head>
+<body>
+
+	<h1>Van t Koude Deeg Pizzeria</h1>
+
+<script type="text/javascript">
+alert("pizza prijzen:")
+alert("small = €3,-")
+alert("medium = €4,-")
+alert("large = €5,-")
+
+	small = prompt("hoeveel small pizza's wilt u?")
+	medium = prompt("hoeveel medium pizza's wilt u?")
+	large = prompt("hoevel large pizza's wilt u?")
+
+document.write("<h2>Uw bestelling:</h2>")
+
+aantaltotal = parseInt(small) + parseInt(medium) + parseInt(large)
+
+
+	document.write(small + " aantal small pizza's <br>")
+	document.write(medium + " aantal medium pizza's <br>")
+	document.write(large + " aantal large pizza,s <br>")
+	document.write(aantaltotal + " totaal aantal pizza's <br>")
+ 
+document.write("<h2>De prijzen:</h2>")
+
+	small = (small * 3);
+	medium = (medium * 4);
+	large = (large * 5)
+
+	prijs = parseInt(small) + parseInt(medium) + parseInt(large)
+;
+	document.write("totale prijs: €" + prijs)
+
+</script>
+
+<p>dankuwel voor uw aankopen bij Pizzaria Van t Koude Deeg! Eetsmakelijk!</p>
+
+</body>
+</html>
